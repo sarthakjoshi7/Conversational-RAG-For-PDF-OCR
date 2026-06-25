@@ -62,7 +62,7 @@ if api_key:
             documents.extend(docs)
         # Split And Create Embeddings For The Documents
         if not documents:
-            st.error("No valid text could be extracted from uploaded PDF.")
+            st.error("No text could be extracted from uploaded PDF.")
             st.stop()
         text_splitter=RecursiveCharacterTextSplitter(chunk_size=5000,chunk_overlap=500)
         splits=text_splitter.split_documents(documents)
