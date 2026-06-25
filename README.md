@@ -3,6 +3,10 @@
 A Conversational Retrieval Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions about their content. 
 The system automatically handles both text based PDFs and scanned PDFs using OCR.
 
+## Project Goal
+
+The goal of this project is to build an intelligent document question answering system capable of handling both text based and scanned PDF documents.
+
 ## Features
 
 - Upload one or more PDF files
