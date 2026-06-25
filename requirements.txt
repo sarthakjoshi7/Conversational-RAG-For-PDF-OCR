@@ -11,7 +11,7 @@ streamlit
 chromadb
 pymupdf
 sentence-transformers==2.6.1
-transformers==4.38.2
+transformers
 protobuf==3.20.2
 paddleocr==2.8.1
 paddlepaddle==2.6.2
