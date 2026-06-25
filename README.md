@@ -37,21 +37,21 @@ This project addresses that limitation by integrating OCR with a Conversational 
 
 ### Text Based PDF
 
-1. PDF is uploaded.
-2. Text is extracted directly using PyPDFLoader.
-3. Text is split into chunks.
-4. Embeddings are generated.
-5. Chunks are stored in ChromaDB.
-6. User questions are answered through Retrieval Augmented Generation.
+- PDF is uploaded.
+- Text is extracted directly using PyPDFLoader.
+- Text is split into chunks.
+- Embeddings are generated.
+- Chunks are stored in ChromaDB.
+- User questions are answered through Retrieval Augmented Generation.
 
 ### Scanned PDF
 
-1. PDF is uploaded.
-2. Direct text extraction is attempted.
-3. If no text is found, PaddleOCR is used.
-4. Extracted OCR text is converted into chunks.
-5. Embeddings are generated.
-6. Chunks are stored in ChromaDB.
-7. User questions are answered through Retrieval Augmented Generation.
+- PDF is uploaded.
+- Direct text extraction is attempted.
+- If no text is found, PaddleOCR is used.
+- Extracted OCR text is converted into chunks.
+- Embeddings are generated.
+- Chunks are stored in ChromaDB.
+- User questions are answered through Retrieval Augmented Generation.
 
 End of project.
