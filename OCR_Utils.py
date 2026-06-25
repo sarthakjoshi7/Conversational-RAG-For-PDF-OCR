@@ -58,7 +58,7 @@ def extract_text_with_ocr(pdf_path):
     for page_num in range(len(pdf)):
         print(f"Processing Page {page_num+1}")
         page=pdf.load_page(page_num)
-        pix=page.get_pixmap(matrix=fitz.Matrix(2,2))
+        pix=page.get_pixmap(matrix=fitz.Matrix(1.5,1.5))
         image_path=os.path.join(TEMP_IMAGE_DIR,f"Page_{page_num}.png")
         pix.save(image_path)
         try:
