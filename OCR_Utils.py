@@ -41,7 +41,7 @@ def extract_text_with_ocr(pdf_path):
         image_path=os.path.join(TEMP_IMAGE_DIR,f"Page_{page_num}.png")
         pix.save(image_path)
         try:
-             print(f"Starting OCR Call For Page {page_num+1}")
+            print(f"Starting OCR Call For Page {page_num+1}")
             result=ocr_model.ocr(image_path,cls=True)
             print(f"OCR Call Finished For Page {page_num+1}")
             print(type(result))
