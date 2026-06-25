@@ -6,6 +6,8 @@ The system automatically handles both text based PDFs and scanned PDFs using OCR
 ## Project Goal
 
 The goal of this project is to build an intelligent document question answering system capable of handling both text based and scanned PDF documents.
+Traditional RAG applications work well with digital PDFs but struggle with scanned documents because the text is embedded inside images. 
+This project addresses that limitation by integrating OCR with a Conversational RAG pipeline. The system automatically detects whether a PDF contains extractable text and falls back to OCR when required.
 
 ## Features
 
