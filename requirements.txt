@@ -1,9 +1,9 @@
-langchain==0.2.11
+langchain==0.2.16
 langchain-core==0.2.43
-langchain-community==0.2.10
-langchain-text-splitters==0.2.2
+langchain-community==0.2.16
+langchain-text-splitters==0.2.4
 langchain-chroma
-langchain-huggingface==0.0.3
+langchain-huggingface
 langchain-groq
 python-dotenv
 pypdf
