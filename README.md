@@ -54,4 +54,7 @@ This project addresses that limitation by integrating OCR with a Conversational 
 - Chunks are stored in ChromaDB.
 - User questions are answered through Retrieval Augmented Generation.
 
+
+This project demonstrates a complete end-to-end Generative AI workflow for intelligent document by combining OCR, vector databases, embeddings, retrieval, and large language models.
+
 End of project.
