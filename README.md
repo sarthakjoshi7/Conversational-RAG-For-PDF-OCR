@@ -1,7 +1,7 @@
 # Conversational RAG For PDF + OCR
 
 A Conversational Retrieval Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions about their content. 
-The system automatically handles both text based PDFs and scanned PDFs using OCR.
+The system automatically handles both text based PDFs and scanned PDFs using OCR technique.
 
 ## Project Goal
 
