@@ -20,9 +20,9 @@ embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 # Set Up Streamlit
 st.title("Conversational RAG With Chat History For PDF + OCR")
 st.write("Upload PDF's and chat with their content")
-# Input The Groq API Key
+# Input The API Key
 api_key=st.text_input("Enter the API key:",type="password")
-# Check If Groq API Key Is Provided
+# Check If API Key Is Provided
 if api_key:
     llm=ChatGroq(groq_api_key=api_key,model_name="llama-3.1-8b-instant")
     # Chat Interface
